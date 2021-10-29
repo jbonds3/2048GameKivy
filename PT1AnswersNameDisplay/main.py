@@ -19,8 +19,10 @@ class NameApp(App):
         return Name()
 #2
 
+# creates an instance of the Name2 application
 class NamesApp(App):
     def build(self):
+        #returns a btn obj that self formats on the screem
         return Button(text='John Bonds III')
 
 while 1:

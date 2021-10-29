@@ -2,7 +2,14 @@
 
 #a widget -> enclosed in <>
 # main program uses kv file to get info about wigdet obj in program
-<Name>
+<Game2048>
+  canvas.before:
+    Color:
+      rgba: (1,1,1,0.5)
+    Rectangle:
+      pos: self.pos
+      size: self.size
+
 
   #a child widget
   Label:
