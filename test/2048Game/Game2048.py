@@ -18,4 +18,5 @@ class Game2048App(App):
         # root widget -> Game2048 widget
         return Game2048()
 
-Game2048App().run()
+if __name__ == '__main__':
+    Game2048App().run()
